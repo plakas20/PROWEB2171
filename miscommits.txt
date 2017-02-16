@@ -1,0 +1,11 @@
+commit afc28c59c6913f562150c564b0f395b4f37f04c7
+Author: plakas20 <j.angelglez@hotmail.com>
+Date:   Thu Feb 16 14:37:16 2017 -0700
+
+    first commit
+
+commit b4347d86bcbfa310c6a8929230b2b22df6a38686
+Author: plakas20 <j.angelglez@hotmail.com>
+Date:   Wed Feb 15 14:47:23 2017 -0700
+
+    primer commit
