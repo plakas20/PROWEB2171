@@ -1,0 +1,45 @@
+body
+{
+
+     border: 1px solid blue;
+	font–size: 16px; /*1em*/
+	margin:0 auto;
+    max-width: 1024px;
+}
+form{
+float:right;
+margin-right: 20px;
+margin-top:-40px;
+
+}
+
+
+
+header nav{
+background: #0E6CB0;
+border-radius: 5px;
+padding: 2px 0px 2px 0px;
+margin: 0 auto;
+width:  99%;
+
+}
+
+header nav ul li{
+
+color:white;
+display: inline-block;
+margin-right: 20px;
+
+}
+
+header{
+background: #B3D8EB;
+
+}
+#logo{
+margin-top: -150px
+
+
+
+
+}
