@@ -1,0 +1,30 @@
+body {
+font-size: 16px; /*1em*/
+margin: 0 auto;/*centramos el body*/
+
+max-width: 1078px; /*empresa–cliente*/
+min-width: 1078px;
+ }
+ header nav ul li{
+ 	   }
+ header input{
+float: right;
+margin-right:200px;
+margin-top: 800px
+ }
+header nav ul li{
+
+border-bottom: 1px solid gray; /*dashed*/
+color: white;
+background: orange;
+display: inline-block;
+font-size: 1em;
+margin-right: 10px;
+   }
+
+   #secc01art02{
+margin-left: 500px;
+	width: 30%;
+
+
+   }
