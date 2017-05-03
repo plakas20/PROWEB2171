@@ -52,5 +52,9 @@ body{
 	font-family: "arial";
 	font-weight: bold;
 }
+#imgLoader{
+
+	display: none;
+}
 
 
