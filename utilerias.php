@@ -1,6 +1,10 @@
 
 <?php
-
+function conecta(){ 
+  $conexion=msql_connect("localhost","root","");
+  msql_select_db("pw2171");
+  return $conexion;
+}
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
 {
   $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
