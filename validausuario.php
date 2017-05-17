@@ -11,22 +11,25 @@ $consulta=sprintf("select usuario,clave from usuarios where usuario=%s and clave
 
 	//$consulta="select usuario,clave from usuarios where usuario='".$usuario"and clave='".md5($clave)."' limit 1";
     $resultado=msql_query($consulta);
-if (msql_numrows($resultado)>0) {
+if (msql_num_rows($resultado)>0) {
 print("<a href='alta.php'>Alta</a><br>");
 print("<a href='baja.php'>Baja</a><br>");
+print("<a href='cambio.php'>Cambio</a><br>");
 print("<a href='consulta.php'>Consulta</a><br>");
 
 
 
-print("Bievenido".$usuario.":)");
+
+//print("Bievenido".$usuario.":)");
 }else{
-	print("NO ERES BIENVENIDO");
-} }
-if (isset($_POST["txtusuario"])&& isset($_POST["txtClave"])) {
-	
+	print("usuario y/o contraseña incorrectas");
+} 
+}
+if (isset($_POST["txtusuario"]) && isset($_POST["txtClave"])) 
+{
 
 $usuario=$_POST["txtusuario"];
-$clave=$_POST["txtClave"]
+$clave=$_POST["txtClave"];
 validausuario($usuario,$clave);
 
 }
