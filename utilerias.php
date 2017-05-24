@@ -1,8 +1,8 @@
 
 <?php
 function conecta(){ 
-  $conexion=msql_connect("localhost","root","");
-  msql_select_db("pw2171");
+  $conexion=mysql_connect("localhost","root","");
+  mysql_select_db("pw2171");
   return $conexion;
 }
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
