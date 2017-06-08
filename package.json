@@ -1,0 +1,21 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "marveltrabajo",
+  "main": "main.js",
+  "scripts": {
+    "start":"electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "class"
+  ],
+  "author": "joseangel",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "electron-packager": "^8.7.1",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
+  }
+}
